@@ -10,7 +10,10 @@ int main()
    cin >> N >> M;
    /* Complete your code */
     while (0 < N < 10 || 1 <= M <= 10){
-    
+        for (int i = 0; i <= M; i++){
+         cout << result << " ";
+         result *= N;
+      }
    }
   
 }
