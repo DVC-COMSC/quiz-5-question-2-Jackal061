@@ -13,6 +13,5 @@ int main()
          cout << result << ", ";
          result *= N;
       }
-   
   return(0);
 }
