@@ -9,11 +9,10 @@ int main()
    cout << "Enter your N, M(0 < N < 10,  1 <= M <= 10): ";
    cin >> N >> M;
    /* Complete your code */
-    while (0 < N < 10 || 1 <= M <= 10){
         for (int i = 0; i <= M; i++){
-         cout << result << " ";
+         cout << result << ", ";
          result *= N;
       }
-   }
-  
+   
+  return(0);
 }
